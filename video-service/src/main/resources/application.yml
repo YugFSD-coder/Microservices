@@ -1,0 +1,12 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: video-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: admin
+
